@@ -1,3 +1,9 @@
+2015-03-02  Andreas Amann  <a.amann@ucc.ie>
+
+	* net/browse-url.el (browse-url-firefox): support for "-remote"
+	was removed in firefox 36.0.  Use "--new-tab" and "--new-window"
+	instead.
+
 2015-03-02  Daniel Colascione  <dancol@dancol.org>
 
 	* vc/vc.el (vc-responsible-backend): Add autoload cooking for
